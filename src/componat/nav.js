@@ -58,6 +58,9 @@ const scrolHeader =()=>{
     head.classList.remove('show_header')
 }
 window.addEventListener('scroll',scrolHeader)
+
+
+
 }
  }
 export default nav

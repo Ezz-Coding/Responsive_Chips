@@ -275,16 +275,9 @@ top: -250px
 
 
 }
-.swiper{
-  margin-inline: initial;
-  overflow: visible;
-}
-:is(.swiper-slide, .swiper-slide).favorites__image{
-scale:1 ;
 
-}
 .favorites__swiper{
- width: 300px;
+ width: 60%;
 }
 .Back_gorund_and_liner{
   padding-top: 40px;
@@ -292,6 +285,9 @@ scale:1 ;
   text-align: center;
   color: aliceblue;
   background-color:  hsl(170, 100%, 28%);
+}
+.Swiperclick{
+  cursor: pointer;
 }
 .liner_ADS h1{
 
@@ -1037,10 +1033,7 @@ top: -200px;
   display: grid;
   grid-template-columns: auto auto auto;
 }
-.swiper{
-  margin-inline: initial;
-  overflow: visible;
-}
+
 .Back_gorund_and_liner{
   padding-top: 40px;
   padding-bottom: 40px;
@@ -1260,4 +1253,7 @@ footer p{
 margin-bottom: 40px;
 
 }
+.favorites__swiper{
+  width: 80%;
+ }
 }
